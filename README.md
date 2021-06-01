@@ -26,7 +26,7 @@ O projeto está hospedado no Vercel, no seguinte endereço: <a href="https://pro
 
 <details>
   <summary>Detalhes do Desafio</summary>
-  
+
   # PROJETO DE SELEÇÃO
 
   Ao conhecer uma pessoa que está aplicando para a Incentive.me gostamos de ter uma conversa sobre código. Afinal, escrever, ler e discutir sobre código faz parte da nossa rotina diária de trabalho.
@@ -91,9 +91,9 @@ O projeto está hospedado no Vercel, no seguinte endereço: <a href="https://pro
 
 ## 🧙‍♂️ Como Iniciar o Projeto
 
-```
-⚠ Você vai precisar criar um projeto no Firebase para fazer a persistência dos dados.
-```
+### Pré-requisitos
+- Você vai precisar criar um projeto no Firebase para fazer a persistência dos dados.
+- Você também vai precisar fazer a criação de um <a href="https://docs.github.com/pt/developers/apps/building-oauth-apps/creating-an-oauth-app">Aplicativo OAuth</a> no GitHub.
 
 Primeiro faça a clonagem do projeto em algum diretorio do seu computador:
 ```bash
@@ -118,6 +118,6 @@ E então é só iniciar o projeto:
 ```bash
 > yarn start
 ```
-O projeto vai iniciar em http://localhost:3000. 
+O projeto vai iniciar em http://localhost:3000.
 
 Isso é tudo, pessoal!
