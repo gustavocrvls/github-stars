@@ -1,6 +1,4 @@
-import { DefaultTheme } from 'styled-components';
-
-export const theme: DefaultTheme = {
+export const theme = {
   borderRadius: '5px',
   palette: {
     textColor: '#444444',
