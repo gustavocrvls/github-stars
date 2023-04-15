@@ -106,12 +106,12 @@ Depois disso instale as dependências:
 ```
 Agora crie um arquivo _.env_ na raiz do projeto, com os campos que estão dentro de _.env.example._:
 ```env
-REACT_APP_GITHUB_API=https://api.github.com # default
+NEXT_PUBLIC_GITHUB_API=https://api.github.com # default
 
 # Firebase
-REACT_APP_FIREBASE_API_KEY=
-REACT_APP_FIREBASE_AUTH_DOMAIN=
-REACT_APP_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 ```
 
 E então é só iniciar o projeto:

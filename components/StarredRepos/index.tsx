@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FiStar } from 'react-icons/fi';
-import { useRepositories } from '../../hooks/useRepositories';
-import { IRepo } from '../../types';
+import { useRepositories } from 'hooks/useRepositories';
+import { IRepo } from 'types';
 import { Repo } from '../Repo';
 import { Search } from '../Search';
 import { Container } from './styles';

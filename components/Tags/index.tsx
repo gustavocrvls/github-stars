@@ -1,5 +1,5 @@
 import { FiTag } from 'react-icons/fi';
-import { useRepositories } from '../../hooks/useRepositories';
+import { useRepositories } from 'hooks/useRepositories';
 import { Container } from './styles';
 
 export function Tags(): JSX.Element {

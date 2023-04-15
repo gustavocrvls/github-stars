@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { FiStar, FiUsers } from 'react-icons/fi';
-import { useRepositories } from '../../hooks/useRepositories';
-import { useUser } from '../../hooks/useUser';
-import { api } from '../../services/api';
+import { useRepositories } from 'hooks/useRepositories';
+import { useUser } from 'hooks/useUser';
+import { api } from 'services/api';
 import { Container } from './styles';
 
 interface IUser {

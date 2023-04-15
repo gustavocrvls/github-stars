@@ -1,17 +1,16 @@
 import { FormEvent, useState } from 'react';
 import { FiArrowRight, FiGithub } from 'react-icons/fi';
-import { useHistory } from 'react-router';
 import { Container } from './styles';
-import logoImg from '../../assets/images/logo.svg';
-import { useUser } from '../../hooks/useUser';
-import { api } from '../../services/api';
+import { useUser } from '../hooks/useUser';
+import { api } from '../services/api';
+import { useRouter } from 'next/router';
 
-export function Login(): JSX.Element {
+export default function Login(): JSX.Element {
   const [userLogin, setUserLogin] = useState('');
 
   const { setLogin } = useUser();
 
-  const history = useHistory();
+  const router = useRouter();
 
   async function getUserData(e: FormEvent) {
     e.preventDefault();
@@ -19,7 +18,7 @@ export function Login(): JSX.Element {
     try {
       await api.get(`users/${userLogin}`);
       setLogin(userLogin);
-      history.push('/stars');
+      router.push('/stars');
     } catch (err) {
       alert('O usuário não foi encontrado!');
     }
@@ -27,7 +26,7 @@ export function Login(): JSX.Element {
 
   return (
     <Container>
-      <img src={logoImg} alt="Github Stars" />
+      <img src="logo.svg" alt="Github Stars" />
       <h1>GitHub Stars</h1>
 
       <p>

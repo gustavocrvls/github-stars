@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FiPlus, FiX } from 'react-icons/fi';
-import { useRepositories } from '../../hooks/useRepositories';
-import { IRepo } from '../../types';
+import { useRepositories } from 'hooks/useRepositories';
+import { IRepo } from 'types';
 import { Container, NewTag } from './styles';
 
 interface RepoProps {

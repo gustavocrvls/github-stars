@@ -18,13 +18,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "."
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "incremental": true
   },
   "include": [
     "pages",
     "components",
     "hooks",
     "styles"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

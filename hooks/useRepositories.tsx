@@ -5,9 +5,9 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { api } from '../services/api';
-import { db } from '../services/firebase';
-import { IRepo } from '../types';
+import { api } from 'services/api';
+import { db } from 'services/firebase';
+import { IRepo } from 'types';
 import { useUser } from './useUser';
 
 interface IRepoTags {
