@@ -3,7 +3,7 @@ import { FiStar } from 'react-icons/fi';
 import { useRepositories } from 'hooks/useRepositories';
 import { IRepo } from 'types';
 import { Repo } from '../Repo';
-import { Search } from '../Search';
+import { Search } from '../search';
 import { Container } from './styles';
 
 export function StarredRepos(): JSX.Element {

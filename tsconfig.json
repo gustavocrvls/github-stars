@@ -27,6 +27,7 @@
     "components",
     "hooks",
     "styles",
+    "helpers",
     ".storybook"
   ],
   "exclude": [

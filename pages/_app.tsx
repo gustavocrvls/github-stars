@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 import { UserProvider } from 'hooks/useUser';
-import { GlobalStyle, theme } from 'styles';
+import { GlobalStyles, theme } from 'styles';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         <UserProvider>
           <Component {...pageProps} />
           {/** @ts-ignore */}
-          <GlobalStyle />
+          <GlobalStyles />
         </UserProvider>
       </ThemeProvider>
     </>

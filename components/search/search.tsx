@@ -1,23 +1,22 @@
 import { FormEvent } from 'react';
 import { FiSearch } from 'react-icons/fi';
-import { Container } from './styles';
+import { Container } from './search.styles';
 
-interface SearchProps {
+interface Props {
   field: string;
   handleField: (search: string) => void;
   handleSearch: () => void;
 }
 
-export function Search({
+export const Search = ({
   field,
   handleField,
   handleSearch,
-}: SearchProps): JSX.Element {
-  function handleSubmit(e: FormEvent) {
+}: Props): JSX.Element => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-
     handleSearch();
-  }
+  };
 
   return (
     <Container onSubmit={handleSubmit}>
@@ -31,4 +30,4 @@ export function Search({
       </button>
     </Container>
   );
-}
+};
