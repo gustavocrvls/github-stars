@@ -26,7 +26,8 @@
     "pages",
     "components",
     "hooks",
-    "styles"
+    "styles",
+    ".storybook"
   ],
   "exclude": [
     "node_modules"
