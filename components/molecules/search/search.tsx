@@ -1,6 +1,8 @@
 import { FormEvent } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { Container } from './search.styles';
+import { Input } from 'components/atoms/input';
+import { Button } from 'components/atoms/button';
 
 interface Props {
   field: string;
@@ -20,14 +22,14 @@ export const Search = ({
 
   return (
     <Container onSubmit={handleSubmit}>
-      <input
+      <Input
         placeholder="ex: react"
         value={field}
         onChange={e => handleField(e.target.value)}
       />
-      <button type="submit">
+      <Button type="submit">
         <FiSearch size="18" />
-      </button>
+      </Button>
     </Container>
   );
 };

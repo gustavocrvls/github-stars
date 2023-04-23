@@ -1,0 +1,7 @@
+import styled from 'styled-components';
+
+export const Container = styled.form`
+  display: flex;
+
+  width: 100%;
+`;
