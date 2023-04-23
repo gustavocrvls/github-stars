@@ -21,7 +21,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${props => props.theme.fonts.secondary}, sans-serif;
     font-weight: 400;
-    color: ${props => props.theme.palette.textColor}
+    color: ${props => props.theme.palette.text}
   }
 
   h1, h2, h3, h4, h5, h6, input, textarea, button {
