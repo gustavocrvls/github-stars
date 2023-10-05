@@ -14,8 +14,6 @@
 
 ## 💡 Sobre o Projeto
 
-O projeto foi desenvolvido para uma vaga de Desenvolvedor Frontend na empresa incentive.me.
-
 O GitHub Stars é um aplicativo onde os usuários do github podem estar fazendo o gerenciamento dos repositóros marcados com uma estrela através da utilização de tags.
 
 Você pode dar uma olhada no Figma do projeto: <a href="https://www.figma.com/file/soDluCOmZ5HF6QU0sQ94PB/GitHub-Stars?node-id=0%3A1" target="_blank">GitHub Stars</a>
